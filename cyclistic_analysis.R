@@ -1,4 +1,4 @@
-# This is the script I'm working with to clean/analyze the cycistic data
+# This is the script I'm working with to clean/analyze the cyclistic data
 
 # Loading tidyverse
 
@@ -7,18 +7,18 @@ library(tidyverse)
 
 # Loading trip data as variables
 
-tripdata_2020_11 <- read.csv("/Users/jackbullington/desktop/12Mos_TripData/202011-divvy-tripdata.csv")
-tripdata_2020_12 <- read.csv("/Users/jackbullington/desktop/12Mos_TripData/202012-divvy-tripdata.csv")
-tripdata_2021_01 <- read.csv("/Users/jackbullington/desktop/12Mos_TripData/202101-divvy-tripdata.csv")
-tripdata_2021_02 <- read.csv("/Users/jackbullington/desktop/12Mos_TripData/202102-divvy-tripdata.csv")
-tripdata_2021_03 <- read.csv("/Users/jackbullington/desktop/12Mos_TripData/202103-divvy-tripdata.csv")
-tripdata_2021_04 <- read.csv("/Users/jackbullington/desktop/12Mos_TripData/202104-divvy-tripdata.csv")
-tripdata_2021_05 <- read.csv("/Users/jackbullington/desktop/12Mos_TripData/202105-divvy-tripdata.csv")
-tripdata_2021_06 <- read.csv("/Users/jackbullington/desktop/12Mos_TripData/202106-divvy-tripdata.csv")
-tripdata_2021_07 <- read.csv("/Users/jackbullington/desktop/12Mos_TripData/202107-divvy-tripdata.csv")
-tripdata_2021_08 <- read.csv("/Users/jackbullington/desktop/12Mos_TripData/202108-divvy-tripdata.csv")
-tripdata_2021_09 <- read.csv("/Users/jackbullington/desktop/12Mos_TripData/202109-divvy-tripdata.csv")
-tripdata_2021_10 <- read.csv("/Users/jackbullington/desktop/12Mos_TripData/202110-divvy-tripdata.csv")
+tripdata_2020_11 <- read.csv("/Users/jackbullington/Documents/Google_Analytics_Certificate/12Mos_TripData/202011-divvy-tripdata.csv")
+tripdata_2020_12 <- read.csv("/Users/jackbullington/Documents/Google_Analytics_Certificate/12Mos_TripData/202012-divvy-tripdata.csv")
+tripdata_2021_01 <- read.csv("/Users/jackbullington/Documents/Google_Analytics_Certificate/12Mos_TripData/202101-divvy-tripdata.csv")
+tripdata_2021_02 <- read.csv("/Users/jackbullington/Documents/Google_Analytics_Certificate/12Mos_TripData/202102-divvy-tripdata.csv")
+tripdata_2021_03 <- read.csv("/Users/jackbullington/Documents/Google_Analytics_Certificate/12Mos_TripData/202103-divvy-tripdata.csv")
+tripdata_2021_04 <- read.csv("/Users/jackbullington/Documents/Google_Analytics_Certificate/12Mos_TripData/202104-divvy-tripdata.csv")
+tripdata_2021_05 <- read.csv("/Users/jackbullington/Documents/Google_Analytics_Certificate/12Mos_TripData/202105-divvy-tripdata.csv")
+tripdata_2021_06 <- read.csv("/Users/jackbullington/Documents/Google_Analytics_Certificate/12Mos_TripData/202106-divvy-tripdata.csv")
+tripdata_2021_07 <- read.csv("/Users/jackbullington/Documents/Google_Analytics_Certificate/12Mos_TripData/202107-divvy-tripdata.csv")
+tripdata_2021_08 <- read.csv("/Users/jackbullington/Documents/Google_Analytics_Certificate/12Mos_TripData/202108-divvy-tripdata.csv")
+tripdata_2021_09 <- read.csv("/Users/jackbullington/Documents/Google_Analytics_Certificate/12Mos_TripData/202109-divvy-tripdata.csv")
+tripdata_2021_10 <- read.csv("/Users/jackbullington/Documents/Google_Analytics_Certificate/12Mos_TripData/202110-divvy-tripdata.csv")
 
 #=========================
 # CLEANING DATA
